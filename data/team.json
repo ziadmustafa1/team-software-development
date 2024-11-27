@@ -1,0 +1,131 @@
+[
+  {
+    "id": "ziad",
+    "name": "زياد مصطفى",
+    "role": "Front-end Developer",
+    "role2": "team leader",
+    "image": "/OIP.jpg",
+    "specialties": ["Next.js", "React.js", "TypeScript", "Tailwind CSS", "team leader"],
+    "bio": "زياد هو مطور واجهات أمامية ذو خبرة في تطوير تطبيقات الويب التفاعلية باستخدام Next.js و React.js. يتميز بقدرته على إنشاء واجهات مستخدم سلسة وسريعة الاستجابة، مع التركيز على أفضل الممارسات في تطوير الويب الحديث.",
+    "projects": [
+      {
+        "name": "منصة التعلم الإلكتروني",
+        "link": "/projects/e-learning-platform"
+      },
+      {
+        "name": "لوحة تحكم تحليلات الأعمال",
+        "link": "/projects/business-analytics-dashboard"
+      }
+    ]
+  },
+  {
+    "id": "mohannad",
+    "name": "مهند",
+    "role": "Full-stack Developer",
+    "role2": "team leader",
+    "image": "/OIP.jpg",
+    "specialties": ["Next.js", "Express", "Nest", "React Native", "Flutter", "team leader"],
+    "bio": "مهند هو مطور شامل ذو خبرة واسعة في تطوير تطبيقات الويب والموبايل. يتميز بقدرته على العمل على جميع جوانب المشروع، من الواجهة الأمامية إلى الخلفية، مع خبرة في تقنيات متعددة.",
+    "projects": [
+      {
+        "name": "تطبيق إدارة المهام",
+        "link": "/projects/task-management-app"
+      },
+      {
+        "name": "موقع التجارة الإلكترونية",
+        "link": "/projects/e-commerce-website"
+      }
+    ]
+  },
+  {
+    "id": "islam",
+    "name": "إسلام",
+    "role": "Front-end Developer",
+    "image": "/OIP.jpg",
+    "specialties": ["Next.js", "React.js", "CSS-in-JS"],
+    "bio": "إسلام هو مطور واجهات أمامية متخصص في Next.js. يتميز بقدرته على إنشاء واجهات مستخدم جذابة وسريعة الاستجابة، مع التركيز على تحسين تجربة المستخدم وأداء التطبيق.",
+    "projects": [
+      {
+        "name": "موقع البورتفوليو الشخصي",
+        "link": "/projects/portfolio-website"
+      },
+      {
+        "name": "منصة المدونات",
+        "link": "/projects/blog-platform"
+      }
+    ]
+  },
+  {
+    "id": "ahmed",
+    "name": "أحمد",
+    "role": "Full-stack Developer",
+    "image": "/OIP.jpg",
+    "specialties": ["MERN Stack", "Next.js", "Nest", "WordPress"],
+    "bio": "أحمد هو مطور شامل متخصص في MERN Stack وNext.js. لديه خبرة واسعة في تطوير تطبيقات الويب الكاملة، من الواجهة الأمامية إلى الخلفية، بالإضافة إلى خبرته في WordPress.",
+    "projects": [
+      {
+        "name": "نظام إدارة علاقات العملاء",
+        "link": "/projects/crm-system"
+      },
+      {
+        "name": "متجر إلكتروني على WordPress",
+        "link": "/projects/wordpress-ecommerce"
+      }
+    ]
+  },
+  {
+    "id": "abdulrahman",
+    "name": "عبدالرحمن أحمد",
+    "role": "Full-stack Developer",
+    "image": "/OIP.jpg",
+    "specialties": ["Node.js", "Express.js", "React.js", "Next.js"],
+    "bio": "عبدالرحمن هو مطور شامل متخصص في تطوير تطبيقات الويب باستخدام Node.js و Express.js للواجهة الخلفية، و React.js و Next.js للواجهة الأمامية. يتميز بقدرته على بناء تطبيقات ويب كاملة وقابلة للتوسع.",
+    "projects": [
+      {
+        "name": "تطبيق دردشة في الوقت الفعلي",
+        "link": "/projects/real-time-chat"
+      },
+      {
+        "name": "نظام إدارة المخزون",
+        "link": "/projects/inventory-management"
+      }
+    ]
+  },
+  {
+    "id": "ahmed-ux",
+    "name": "أحمد",
+    "role": "UI/UX Designer",
+    "image": "/OIP.jpg",
+    "specialties": ["Figma", "Adobe XD", "Sketch", "User Research"],
+    "bio": "أحمد هو مصمم UI/UX موهوب يتمتع بخبرة واسعة في تصميم واجهات المستخدم وتحسين تجربة المستخدم. يستخدم Figma كأداة رئيسية لتصميم واجهات المستخدم الجذابة والوظيفية، مع التركيز على سهولة الاستخدام وجمال التصميم.",
+    "projects": [
+      {
+        "name": "إعادة تصميم تطبيق الهاتف المحمول",
+        "link": "/projects/mobile-app-redesign"
+      },
+      {
+        "name": "لوحة تحكم SaaS",
+        "link": "/projects/saas-dashboard"
+      }
+    ]
+  },
+  {
+    "id": "karim",
+    "name": "كريم",
+    "role": "Flutter Developer",
+    "image": "/OIP.jpg",
+    "specialties": ["Flutter", "Dart", "Firebase", "State Management"],
+    "bio": "كريم هو مطور Flutter متمرس يتخصص في بناء تطبيقات الموبايل عبر المنصات. لديه خبرة واسعة في استخدام Flutter وDart لإنشاء تطبيقات سريعة وجذابة وقابلة للتوسع لكل من Android و iOS.",
+    "projects": [
+      {
+        "name": "تطبيق تتبع اللياقة البدنية",
+        "link": "/projects/fitness-tracker-app"
+      },
+      {
+        "name": "تطبيق توصيل الطعام",
+        "link": "/projects/food-delivery-app"
+      }
+    ]
+  }
+]
+

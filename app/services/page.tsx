@@ -1,5 +1,12 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Metadata } from 'next'
 import Link from 'next/link'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+
+export const metadata: Metadata = {
+  title: 'خدماتنا | فريق التطوير المتميز',
+  description: 'نقدم مجموعة واسعة من خدمات تطوير الويب والتطبيقات، بما في ذلك تطوير تطبيقات الويب والموبايل، وتصميم واجهات المستخدم، وتطوير الواجهات الخلفية.',
+  keywords: 'خدمات برمجية, تطوير الويب, تطبيقات الموبايل, تصميم UI/UX, Next.js, React Native, Node.js, Flutter',
+}
 
 const services = [
   {
@@ -36,38 +43,34 @@ const services = [
 
 export default function ServicesPage() {
   return (
-    <div className="min-h-screen bg-gray-100">
-      <header className="bg-white shadow">
+    <div className="min-h-screen bg-gradient-to-b from-blue-100 to-white">
+      <header className="bg-white shadow-md sticky top-0 z-20">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold text-gray-900">خدماتنا</h1>
+          <h1 className="text-3xl font-bold text-blue-800">خدماتنا</h1>
         </div>
       </header>
-      <main>
-        <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-          <div className="px-4 py-6 sm:px-0">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {services.map((service) => (
-                <Card key={service.title}>
-                  <CardHeader>
-                    <CardTitle className="flex items-center">
-                      <span className="text-2xl mr-2">{service.icon}</span>
-                      {service.title}
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <CardDescription>{service.description}</CardDescription>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </div>
+      <main className="max-w-7xl mx-auto py-12 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {services.map((service) => (
+            <Card key={service.title} className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <CardHeader>
+                <CardTitle className="flex items-center text-xl font-bold text-blue-800">
+                  <span className="text-2xl mr-2">{service.icon}</span>
+                  {service.title}
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription>{service.description}</CardDescription>
+              </CardContent>
+            </Card>
+          ))}
         </div>
       </main>
-      <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-        <Link href="/" className="text-blue-600 hover:text-blue-800 transition-colors duration-300">
+      <footer className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+        <Link href="/" className="text-blue-600 hover:text-blue-800 transition-colors">
           العودة إلى الصفحة الرئيسية
         </Link>
-      </div>
+      </footer>
     </div>
   )
 }
